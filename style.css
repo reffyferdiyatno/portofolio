@@ -1,0 +1,115 @@
+.container {
+  display: flex;  
+  align-items: stretch;
+  background-color: #beebe9;
+  width:50%;
+  margin: 40px auto 140px;
+  padding: 20px 15px;
+
+}
+.containerg {
+  display: flex;  
+  align-items: stretch;
+  background-color: #beebe9;
+  width:30%;
+  height: 400px;
+  margin: 20px 140px;
+  padding: 35px 15px;
+
+}
+.containerg img {
+	height: 250px;
+	width: 450px;
+}
+
+.container img {
+	height: 450px;
+	width: 750px;
+}
+
+a {
+	color: blue;
+}
+
+h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color: #00a2c6
+}
+ 
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6
+}
+
+
+
+/*bagian header*/
+.header {
+  margin-right: 20px 20px 20px 20px;
+  padding: 80px;
+  text-align: left;
+  background-image: url(img/Streetfighter-V4B.jpg);
+  color: white;
+  background-position: 0 -420px;
+}
+
+/*akhir header*/
+
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 550px;
+}
+
+
+
+.parent {
+	float: left;
+	width: 500px;
+}
+
+.absolute {
+	position: relative ;
+	top: 0;
+	left: 50px;
+}
+ 
+
+.side {
+  float: right;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sidea {
+  float: right;
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.sidea img {
+padding-top: 50px;
+height: 270px;
+width: 350px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+img {
+	height: 400px;
+	width: 400px;
+
+}
